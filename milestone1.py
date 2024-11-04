@@ -1,8 +1,13 @@
 # MILESTONE 1 USER STORIES:
-# 1. find an artist's top songs
-# 2. browse and get into the genre
+# 1. look through a list of potential artists to listen to
+# 2. compare two artists and see a summary of both artists
 # 3. finding a jpop arist based on my kpop tastes
 
+import tkinter as tk
+from tkinter import ttk, messagebox, simpledialog
+from jpop_recs import JpopRecommendationService
+from kpop_recs import KpopRecommendationService
+from compare import ComparisonService
 
 class Artist:
     def __init__(self, name, pop, attributes, genres, top3, active, company, members, recommendations, more):
@@ -16,21 +21,6 @@ class Artist:
         self.members = members # members of the artist (if group or solo ortist)
         self.recommendations = recommendations # my personal song recommendations
         self.more = more # link to an outside source to learn more
-
-class RecommendationSystem:
-    def __init__(self):
-        self.artists = []
-
-    def add_artist(self, artist):
-        # adds an artist to the list
-        self.artists.append(artist)
-
-
-    def recommend_by_genre(self, attributes):
-        # recommend artist by a specific list of choosable attributes
-        return [artist for artist in self.artists if artist.attributes == attributes]
-    
-recommendation_system = RecommendationSystem()
 
 # list of kpop artists
 kpop1 = Artist(name="aespa", pop="kpop", attributes=["hip hop", "electronic", "EDM"],
@@ -141,3 +131,13 @@ jpop13 = Artist(name="Yorushika", pop="jpop", attributes=["r&b"],
                active="2017 - Present", company="Universal Music Japan",members=["n-buna", "suis"], 
                recommendations=["Dakara Boku Wa Ongaku Wo Yameta", "Itte", "Natsukusa ga Jyama wo Suru"], more="https://jpop.fandom.com/wiki/Yorushika")
 
+# list of all artists and their attributes
+all_artists = [kpop1, kpop2, kpop3, kpop4, kpop5, kpop6, kpop7, kpop8, kpop9, kpop10, kpop11, kpop12, kpop13,
+               jpop1, jpop2, jpop3, jpop4, jpop5, jpop6, jpop7, jpop8, jpop9, jpop10, jpop11, jpop12, jpop13]
+kpop_artists = [kpop1, kpop2, kpop3, kpop4, kpop5, kpop6, kpop7, kpop8, kpop9, kpop10, kpop11, kpop12, kpop13]
+jpop_artists = [jpop1, jpop2, jpop3, jpop4, jpop5, jpop6, jpop7, jpop8, jpop9, jpop10, jpop11, jpop12, jpop13]
+
+# initiate the microservices
+jpop_recommender = JpopRecommendationService
+kpop_recommender = KpopRecommendationService
+comparator = ComparisonService(all_artists)
