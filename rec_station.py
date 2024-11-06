@@ -1,5 +1,5 @@
 # MILESTONE 1 USER STORIES:
-# 1. look through a list of potential artists to listen to
+# 1. find a kpop artist based on my jpop tastes
 # 2. compare two artists and see a summary of both artists
 # 3. finding a jpop arist based on my kpop tastes
 
