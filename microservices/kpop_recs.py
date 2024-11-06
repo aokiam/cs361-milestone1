@@ -17,7 +17,7 @@ def recommend_kpop():
 
     # find kpop artist in the json and get their attributes
     for artist in data['artists']:
-        if artist['pop'] == 'jpop' and artist['name'].lower() == jpop_artist.lower():
+        if artist['pop'] == 'jpop' and artist['name'] == jpop_artist:
             # find kpop artist with at least one matching attribute
             matching_kpop = [
                 kpop for kpop in data['artists']
@@ -26,10 +26,8 @@ def recommend_kpop():
             if matching_kpop:
                 return jsonify(matching_kpop)
             else:
-                {"message": "No matching K-pop artist found."}
+                return jsonify({"message": "J-pop artist not found."})
 
-    # if j-pop artist not found
-    return jsonify({"message": "J-pop artist not found."})
 
 if __name__ == '__main__':
     app.run(port=5002)

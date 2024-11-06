@@ -36,9 +36,9 @@ class MainPage(tk.Frame):
     def __init__(self, parent, controller):
         super().__init__(parent)
         self.controller = controller
-        ttk.Button(self, text="Compare Artists", command=lambda: controller.show_frame("ComparisonPage")).grid(row=0 ,column=0, pady=10)
-        ttk.Button(self, text="Get K-pop Recommendation", command=lambda: controller.show_frame("KpopRecPage")).grid(row=1 ,column=0, pady=10)
-        ttk.Button(self, text="Get J-pop Recommendation", command=lambda: controller.show_frame("JpopRecPage")).grid(row=2 ,column=0, pady=10)
+        ttk.Button(self, text="Compare Artists", command=lambda: controller.show_frame("ComparisonPage")).grid(row=0 ,column=0, padx=50, pady=10)
+        ttk.Button(self, text="Get K-pop Recommendation", command=lambda: controller.show_frame("KpopRecPage")).grid(row=1 ,column=0, padx=50, pady=10)
+        ttk.Button(self, text="Get J-pop Recommendation", command=lambda: controller.show_frame("JpopRecPage")).grid(row=2 ,column=0, padx=50, pady=10)
 
 
 class ComparisonPage(tk.Frame):
@@ -77,7 +77,7 @@ class ComparisonResultPage(tk.Frame):
     def __init__(self, parent, controller):
         super().__init__(parent)
         self.controller = controller
-        self.comparison_text = tk.StringVar
+        self.comparison_text = tk.StringVar()
 
         # label to show the comparison result
         self.label = ttk.Label(self, textvariable=self.comparison_text, wraplength=400)
@@ -94,7 +94,7 @@ class ComparisonResultPage(tk.Frame):
                 f"Name: {artist['name']}\nPop: {artist['pop']}\nTop 3 Songs: {', '.join(artist['top3'])}\nAttributes: {', '.join(artist['attributes'])}"
                 for artist in comparison
             ])
-            self.comparison_sext.set(comparison_text)
+            self.comparison_text.set(comparison_text)
 
 
 class JpopRecPage(tk.Frame):

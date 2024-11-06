@@ -25,11 +25,11 @@ def compare():
     data = load_data()
 
     #find both artists in the json data
-    artists = [artist for artist in data['artists'] if artist['name']].lower() in [artist1.lower(), artist2.lower]
+    artists = [artist for artist in data['artists'] if artist['name'] in [artist1, artist2]]
 
     # if both artists are found return their data
     if len(artists) == 2:
-        return jsonify(artists)
+        return jsonify([filter_artist_info(artist) for artist in artists])
     
     # if one or both are not found
     return jsonify(({"message": "One or both artists not found"}))
