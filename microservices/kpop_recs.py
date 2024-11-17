@@ -17,11 +17,11 @@ def recommend_kpop():
 
     # find kpop artist in the json and get their attributes
     for artist in data['artists']:
-        if artist['pop'] == 'jpop' and artist['name'] == jpop_artist:
+        if artist['pop'] == 'j-pop' and artist['name'] == jpop_artist:
             # find kpop artist with at least one matching attribute
             matching_kpop = [
                 kpop for kpop in data['artists']
-                if kpop['pop'] == 'kpop' and set(artist['attributes']).intersection(kpop['attributes'])
+                if kpop['pop'] == 'k-pop' and set(artist['attributes']).intersection(kpop['attributes'])
             ]
             if matching_kpop:
                 return jsonify(matching_kpop)

@@ -2,7 +2,7 @@
     "artists": [
         {
             "name": "asepa",
-            "pop": "kpop",
+            "pop": "k-pop",
             "genres": ["electropop", "hyperpop", "dance pop", "EDM"],
             "attributes": ["hip hop", "electronic", "EDM"],
             "top3": ["Supernova", "Armageddon", "Drama"],
@@ -14,7 +14,7 @@
         },
         {
             "name": "G-(I)DLE",
-            "pop": "kpop",
+            "pop": "k-pop",
             "genres": ["contemporary r&b", "hip hop", "pop rap", "pop rock"],
             "attributes": ["electronic", "hip hop", "r&b", "rap"],
             "top3": ["Queencard", "Klaxon", "TOMBOY"],
@@ -26,7 +26,7 @@
         },
         {
             "name": "ILLIT",
-            "pop": "kpop",
+            "pop": "k-pop",
             "genres": ["dance pop", "contemporary r&b"],
             "attributes": ["bubblegum pop"],
             "top3": ["Magnetic", "Cherish (My Love)", "Lucky Girl Syndrome"],
@@ -38,7 +38,7 @@
         },
         {
             "name": "ITZY",
-            "pop": "kpop",
+            "pop": "k-pop",
             "genres": ["dance pop", "rap", "electropop", "EDM"],
             "attributes": ["rock", "electronic", "EDM"],
             "top3": ["WANNABE", "UNTOUCHABLE", "LOCO"],
@@ -50,7 +50,7 @@
         },
         {
             "name": "IVE",
-            "pop": "kpop",
+            "pop": "k-pop",
             "genres": ["dance pop", "contemporary r&b", "electropop"],
             "attributes": ["bubblegum pop", "electronic", "r&b"],
             "top3": ["I AM", "After LIKE", "LOVE DIVE"],
@@ -62,7 +62,7 @@
         },
         {
             "name": "KISS OF LIFE",
-            "pop": "kpop",
+            "pop": "k-pop",
             "genres": ["hip hop", "contemporary r&b"],
             "attributes": ["hip hop", "ro&b"],
             "top3": ["Sticky", "Midas Touch", "Sugarcoat (NATTY Solo)"],
@@ -74,7 +74,7 @@
         },
         {
             "name": "LE SSERAFIM",
-            "pop": "kpop",
+            "pop": "k-pop",
             "genres": ["dance pop", "contemporary r&b", "hip hop", "phonk"],
             "attributes": ["electronic", "hip hop", "rock", "r&b"],
             "top3": ["CRAZY", "Perfect Night", "Smart"],
@@ -86,7 +86,7 @@
         },
         {
             "name": "LOONA",
-            "pop": "kpop",
+            "pop": "k-pop",
             "genres": ["dance pop", "electropop", "contemporary r&b"],
             "attributes": ["bubblegum pop", "electronic", "r&b"],
             "top3": ["Heart Attack", "PTT", "Hi High"],
@@ -98,7 +98,7 @@
         },
         {
             "name": "NewJeans",
-            "pop": "kpop",
+            "pop": "k-pop",
             "genres": ["contemporary r&b", "dance pop", "indie"],
             "attributes": ["bubblegum pop", "r&b"],
             "top3": ["Super Shy", "Supernatural", "How Sweet"],
@@ -110,7 +110,7 @@
         },
         {
             "name": "NMIXX",
-            "pop": "kpop",
+            "pop": "k-pop",
             "genres": ["dance pop", "pop rap", "hip hop"],
             "attributes": ["electronic", "hip hop"],
             "top3": ["Love Me Like This", "DASH", "DICE"],
@@ -122,7 +122,7 @@
         },
         {
             "name": "Red Velvet",
-            "pop": "kpop",
+            "pop": "k-pop",
             "genres": ["dance pop", "contemporary r&b", "electropop"],
             "attributes": ["electronic", "r&b", "city pop"],
             "top3": ["Cosmic", "Psycho", "Russian Roulette"],
@@ -134,7 +134,7 @@
         },
         {
             "name": "STAYC",
-            "pop": "kpop",
+            "pop": "k-pop",
             "genres": ["dance pop", "electropop", "contemporary r&b"],
             "attributes": ["bubblegum pop", "electronic", "r&b"],
             "top3": ["ASAP", "Stereotype", "RUN2U"],
@@ -146,7 +146,7 @@
         },
         {
             "name": "TWICE",
-            "pop": "kpop",
+            "pop": "k-pop",
             "genres": ["dance pop", "bubblegum pop", "electropop"],
             "attributes": ["bubblegum pop", "electronic", "city pop", "EDM"],
             "top3": ["What is Love?", "The Feels", "FANCY"],
@@ -158,7 +158,7 @@
         },
         {
             "name": "Ado",
-            "pop": "jpop",
+            "pop": "j-pop",
             "genres": ["pop rock", "power pop", "jazz pop", "yakousei", "shimokita-kei"],
             "attributes": ["rock", "city pop", "electronic", "hip hop"],
             "top3": ["Show", "Usseewa", "New Genesis"],
@@ -170,7 +170,7 @@
         },
         {
             "name": "ATARASHII GAKKO!",
-            "pop": "jpop",
+            "pop": "j-pop",
             "genres": ["pop rock", "jazz rock", "jazz pop", "shimokita-kei"],
             "attributes": ["rock", "EDM", "electronic"],
             "top3": ["OTTONABLUE", "Tokyo Calling", "Fly High"],
@@ -182,7 +182,7 @@
         },
         {
             "name": "Eve",
-            "pop": "jpop",
+            "pop": "j-pop",
             "genres": ["yakousei", "pop rock", "shimokita-kei", "indie"],
             "attributes": ["rock", "electronic"],
             "top3": ["Kaikai Kitan", "Dramaturgy", "Fightsong"],
@@ -194,7 +194,7 @@
         },
         {
             "name": "Fujii Kaze",
-            "pop": "jpop",
+            "pop": "j-pop",
             "genres": ["contemporary r&b", "pop soul", "acoustic rock"],
             "attributes": ["rock", "r&b", "city pop"],
             "top3": ["Shinunoga E-Wa", "Kirari", "Matsuri"],
@@ -206,7 +206,7 @@
         },
         {
             "name": "Kenshi Yonezu",
-            "pop": "jpop",
+            "pop": "j-pop",
             "genres": ["alternative rock", "shimokita-kei", "pop rock"],
             "attributes": ["rock"],
             "top3": ["KICK BACK", "Gatakuta - JUNK", "Sayounara Mataitsuka! - Sayonara"],
@@ -217,11 +217,11 @@
             "learn_more": "https://jpop.fandom.com/wiki/Yonezu_Kenshi"
         },
         {
-            "name": "mafumfau",
-            "pop": "jpop",
+            "name": "mafumafu",
+            "pop": "j-pop",
             "genres": ["shimokita-kei", "pop rock"],
             "attributes": ["rock"],
-            "top3": ["takt", "1 • 2 • 3", "Onnanoko Ni Naritai"],
+            "top3": ["takt", "1  2  3", "Onnanoko Ni Naritai"],
             "years_active": "2010 - Present",
             "company": "A-Sketch",
             "members": ["mafumafu"],
@@ -230,7 +230,7 @@
         },
         {
             "name": "nqrse",
-            "pop": "jpop",
+            "pop": "j-pop",
             "genres": ["rap", "rock"],
             "attributes": ["rock", "electronic"],
             "top3": ["ULTRA C", "CR ANTHEM", "Utakata no yoru"],
@@ -242,7 +242,7 @@
         },
         {
             "name": "Reol",
-            "pop": "jpop",
+            "pop": "j-pop",
             "genres": ["electropop", "pop rap", "shimokita-kei", "Japanese hip hop"],
             "attributes": ["EDM", "electronic", "hip hop"],
             "top3": ["The Sixth Sense", "No title", "drop pop candy"],
@@ -254,10 +254,10 @@
         },
         {
             "name": "soraru",
-            "pop": "jpop",
+            "pop": "j-pop",
             "genres": ["electropop", "pop rock"],
             "attributes": ["electronic", "rock"],
-            "top3": ["1 • 2 • 3", "World Domination", "Papeki Hero"],
+            "top3": ["1  2  3", "World Domination", "Papeki Hero"],
             "years_active": "2008 - Present",
             "company": "Virgin Music",
             "members": ["soraru"],
@@ -266,7 +266,7 @@
         },
         {
             "name": "takayan",
-            "pop": "jpop",
+            "pop": "j-pop",
             "genres": ["Japanese hip hop", "pop rap"],
             "attributes": ["hip hop"],
             "top3": ["Bad example", "Toy", "It's okay to envy"],
@@ -278,7 +278,7 @@
         },
         {
             "name": "Tuyu",
-            "pop": "jpop",
+            "pop": "j-pop",
             "genres": ["yakousei", "power pop", "shimokita-kei", "pop rock", "new rave"],
             "attributes": ["rock", "bubblegum pop"],
             "top3": ["I'm getting on the bus to the other world, see ya!", "Compared Child", "Being as low as dirt, taking what's important from me"],
@@ -290,7 +290,7 @@
         },
         {
             "name": "Vaundy",
-            "pop": "jpop",
+            "pop": "j-pop",
             "genres": ["shimokita-kei", "indie pop", "alt-pop", "pop rock"],
             "attributes": ["city pop", "r&b"],
             "top3": ["Kaiju no Kanauta", "Odoriko", "Time Paradox"],
@@ -302,7 +302,7 @@
         },
         {
             "name": "Yorushika",
-            "pop": "jpop",
+            "pop": "j-pop",
             "genres": ["yakousei", "pop rock", "indie rock", "shimokita-kei", "indie pop"],
             "attributes": ["r&b"],
             "top3": ["Tada Kimi ni Hare", "Yu Sansan", "Hareru"],
