@@ -12,7 +12,7 @@ Later to be implemented:<br>
    page where you can look through all the artists in the program<br>
    randomize option when looking for kpop or jpop recommendations<br>
 
-Run the following commands:<br>
+Run the following commands to install everything needed to run the program:<br>
 ```
 pip install Flask
 pip install tkinter
