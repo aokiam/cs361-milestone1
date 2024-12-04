@@ -11,3 +11,7 @@ def get_jpop_from_kpop(kpop_artist):
 def get_comparison(artist1, artist2):
     return requests.get(f'http://localhost:5003/compare',
                         params={'artist1': artist1, 'artist2': artist2}).json()
+
+def get_info(artist):
+    return requests.get(f'http://localhost:5004/artist_details',
+                        params={'artist': artist}).json()
