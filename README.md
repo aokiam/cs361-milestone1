@@ -1,16 +1,13 @@
-BEFORE RUNNING DOWNLOAD INCLUDED FONTS ONTO YOUR COMPUTER<br>
+<strong>BEFORE RUNNING DOWNLOAD INCLUDED FONTS ONTO YOUR COMPUTER</strong><br>
 (for stylization purposes <33)<br>
 
 This is the main repo for my CS361 project.<br>
-It's a music recommendation station for kpop and jpop, it matches attributes of different<br>
-kpop and jpop artists and recommends you what you're looking for based on your taste<br>
-in music. Currently, you can enter a jpop artist and get a recommended kpop artist,<br>
-enter a kpop artist and get a recommended jpop artist, and compare two aritsts.<br>
+It's a music recommendation station for k-pop and j-pop, it matches attributes of different<br>
+k-pop and j-pop artists and recommends you what you're looking for based on your taste<br>
+in music. You can enter a j-pop artist and get a recommended k-pop artist, enter a k-pop<br>
+artist and get a recommended j-pop artist, get a randomized recommendation for either a <br>
+k-pop or j-pop artistm compare two aritsts, and look up information on an artist.<br>
 
-Later to be implemented:<br>
-   information page of all artists<br>
-   page where you can look through all the artists in the program<br>
-   randomize option when looking for kpop or jpop recommendations<br>
 
 Run the following commands to install everything needed to run the program:<br>
 ```
